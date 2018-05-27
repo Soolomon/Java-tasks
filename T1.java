@@ -15,7 +15,6 @@ public class NumbersOfFibonachi {
 			b = d;
 		}
 	}
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader enter = new BufferedReader(new InputStreamReader(System.in));
 		showNumbersFibonachi(Integer.parseInt(enter.readLine()));
